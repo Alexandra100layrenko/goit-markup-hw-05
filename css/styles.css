@@ -596,7 +596,7 @@ p .small{
 }
 
 .input-label{
-  display: inline-block;
+  display: block;
   font-family: var(--main-font-family);
   font-size: 12px;
   line-height: 1.2;
@@ -606,6 +606,7 @@ p .small{
 }
 
 .modal-textarea {
+  display: block;
   width: 100%;
   height: 137px;
   border-radius: 13px;
