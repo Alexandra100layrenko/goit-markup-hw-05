@@ -526,9 +526,13 @@ p .small{
   color: #ffffff; 
 }
 
-.foter-form{
+.footer-form{
   display: flex;
   gap: 24px;
+}
+
+.search-find{
+  
 }
 
 .search-form{
@@ -731,7 +735,6 @@ p .small{
 
 .modal-field-checkbox{
   margin-bottom: 24px; 
-
 }
 
 .check-text{
@@ -754,13 +757,14 @@ p .small{
   fill: transparent;
 }
 
-.checkbox:checked{
+.checkbox:checked .check-iconbox{
   background-color: var(--accent-color-pressed-state);
   border: none; 
+  fill: #F4F4FD;
 }
 
 .privacy-link {
-  color: var(--accent-color);
+  color: var(--primary-brand);
 }
 
 /* ================= MODAL-FORM-BTN ================= */
