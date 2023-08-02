@@ -586,6 +586,7 @@ p .small{
   color: var(--dark);
   max-width: 360px;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .modal-form{
