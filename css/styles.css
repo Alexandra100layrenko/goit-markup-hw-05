@@ -588,8 +588,11 @@ p .small{
 
 .modal-form{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  padding-top: 10px;
+  width: 100%;
+  text-align: left;
 }
 
 .input-label{
@@ -599,7 +602,7 @@ p .small{
   line-height: 1.2;
   letter-spacing: 0.04em;
   color: var(--dark);
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 .modal-textarea {
@@ -613,6 +616,8 @@ p .small{
   color: #48433c;
   outline: transparent;
   resize: none;
+  overflow:auto;
+  margin-bottom: 8px;
 }
 
 .modal-input-icon{
