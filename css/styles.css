@@ -573,11 +573,6 @@ p .small{
   fill: #ffffff;
 }
 
-.modal-icon-close:hover,
-.modal-icon-close:focus{
-  fill: #ffffff;
-}
-
 /* ================= MODAL-FORM ================= */
 
 .modal-title{
