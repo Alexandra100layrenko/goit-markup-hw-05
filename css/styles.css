@@ -12,15 +12,12 @@
   --light: #F4F4FD;
   --dark: #2E2F42;
 }
-
 .link{
   text-decoration: none;
 }
-
 .list{
   list-style: none;
 }
-
 h1,
 h2,
 h3,
@@ -31,26 +28,21 @@ p{
     margin-top: 0;
     margin-bottom: 0;
 }
-
 ul,
 ol{
 	margin-top: 0;
 	margin-bottom: 0;
 	padding-left: 0;
 }
-
 button{
   cursor: pointer;
 }
-
 a{
   text-decoration: none;
 }
-
 li{
   list-style-type: none;
 }
-
 img{
   display: block;
 }
@@ -62,7 +54,6 @@ img{
   padding-left: 15px;
   padding-right: 15px;
 }
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -75,13 +66,11 @@ img{
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
 body{
   font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
   background-color: var(--primary-color-white);
 }
-
 .heder-title{
   font-family: var(--main-font-family);
   font-weight: 700;
@@ -95,7 +84,6 @@ body{
   margin-right: auto;
   margin-left: auto;
 }
-
 .sub-title-text{
   font-family: var(--main-font-family);
   font-weight: 700;
@@ -105,7 +93,6 @@ body{
   text-transform: capitalize;
   color: var(--dark);
 }
-
 .subtitel-options-text{
   font-family: var(--main-font-family);
   font-weight: 500;
@@ -114,7 +101,6 @@ body{
   letter-spacing: 0.02em;
   color: var(--dark);
 }
-
 .suboptions-descriptions-text{
   font-family: var(--main-font-family);
   font-size: 16px;
@@ -122,7 +108,21 @@ body{
   letter-spacing: 0.02em;
   color: var(--dark);
 }
-
+p .medium{
+  font-family: var(--main-font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+p .small{
+  font-family: var(--main-font-family);
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: var(--dark);
+}
 .link a{
   font-family: var(--main-font-family);
   font-style: normal;
@@ -131,7 +131,6 @@ body{
   letter-spacing: 0.04em;
   color: var(--primary-brand);
 }
-
 /* ================ HEADER ================= */
 .page-header{
   align-items: center;
@@ -144,7 +143,6 @@ body{
   padding-top: 24px;
   padding-bottom: 24px;
 }
-
 .page-header-container{
   display: flex;
   align-items: center;
@@ -159,7 +157,6 @@ body{
   align-content: center;
   gap: 40px;
 }
-
 .menu-item{
   font-family: var(--main-font-family);
   font-weight: 500;
@@ -198,7 +195,6 @@ body{
   border-radius: 2px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .flow{
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -216,7 +212,6 @@ body{
 .logo-accent{
   color: var(--dark);
 }
-
 /* ==== MENU === */
 .page-contact{
   font-family: var(--main-font-family);
@@ -232,7 +227,6 @@ body{
   align-items: center;
   gap: 40px;
 }
-
 .force:hover,
 .force:focus{
   color: var(--accent-color-pressed-state);
@@ -253,7 +247,6 @@ body{
   padding-top: 188px;
   padding-bottom: 188px;
 }
-
 /* ==== BUTTON === */
 .modal-open-btn{
   display: block;
@@ -300,7 +293,6 @@ body{
 .description-benefits{
   color: var(--primary-text-color);
 }
-
 /* === svg === */
 .advantages-block {
   display: flex;
@@ -314,8 +306,6 @@ body{
 .advantages-icon {
   fill: var(--dark);
 }
-
-
 /* ================= SECTION-3 ================= */
 .category-product{
   padding-bottom: 120px;
@@ -350,7 +340,6 @@ body{
   align-content: center;
   gap: 24px;
 }
-
 .card-employee-item{
   flex-basis: calc((100% - 72px) / 4);
   text-align: center;
@@ -371,7 +360,6 @@ body{
   color: var(--primary-text-color);
   line-height: 1.5;
 }
-
 /* === svg === */
 .social-card-menu-icon{
   display: flex;
@@ -399,26 +387,22 @@ body{
 .card-socials-icon{
   fill: var(--light);
 }
-
 /* ================= SECTION-5 ================= */
 .customers{
   padding-top: 120px;
   padding-bottom: 120px;
 }
-
 .customers-block>.sub-title-text{
   font-size: 36px;
   line-height: 1.11;
   color: var(--dark);
   margin-bottom: 72px;
 }
-
 .customers-list{
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
 }
-
 .cut{
   height: 88px;
   width: calc((100% - 120px) / 6);
@@ -442,7 +426,6 @@ body{
 .customers-icon{
   fill: currentColor
 }
-
 /* ================= FOOTER ================= */
 .footer-bg{
   background-color: #2E2F42;
@@ -453,13 +436,11 @@ body{
   display: flex;
   align-items: baseline;
 }
-
 .footer-content{
   flex-direction: row;
   gap: 120px;
   margin-right: 120px;
 }
-
 .logo-footer{
   display: flex;
   font-family: "Raleway", sans-serif;
@@ -481,7 +462,6 @@ body{
 .social{
   display: flex;
 }
-
 .social-name {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -491,13 +471,11 @@ body{
   color: var(--primary-color-white);
   margin-bottom: 16px;
 }
-
 .social-list {
   display: flex;
   justify-content: center;
   column-gap: 120px;
 }
-
 .social-icon {
   display: flex;
   gap: 16px;
@@ -519,12 +497,10 @@ body{
   border-radius: 50%;
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .social-list-link:hover,
 .social-list-link:focus{
   background-color: #31d0aa;
 }
-
 .social-list-icon{
   fill: #ffffff;
   transition: fill var(--transition-duration-and-func);
@@ -536,12 +512,10 @@ body{
 .social-list-icon{
   fill: var(--light);
 }
-
 .social-icon:hover .social-list-icon,
 .social-icon:focus .social-list-icon {
   fill: var(--accent-color);
 }
-
 /* ================= MODAL ================= */
 .backdrop{
   position: fixed;
@@ -629,11 +603,7 @@ body{
 }
 
 
-
-
 /* ================= PORTFOLIO ================= */
-
-
 /* ================= MAIN ================= */
 /* ================= SECTION-1 ================= */
 .menu-filter{
@@ -646,7 +616,6 @@ body{
   gap: 24px;
   margin-bottom: 72px;
 }
-
 .menu-filter-btn{
   display: block;
   font-family: "Roboto", sans-serif;
@@ -661,7 +630,6 @@ body{
   border: 1px solid #e7e9fc;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .menu-filter-btn:hover,
 .menu-filter-btn:focus{
   display: block;
@@ -670,7 +638,6 @@ body{
   background-color: #404BBF;
   border: 1px solid transparent;
 }
-
 /* ================= SECTION-2 ================= */
 .cards-product-list{
   display: flex;
@@ -693,12 +660,10 @@ body{
   display: block; 
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .cards-product-img-wrapper{
   position: relative;
   overflow: hidden;
 }
-
 .overlay-descriptions{
   position: absolute;
   top: 0;
@@ -715,18 +680,15 @@ body{
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   overflow: auto;
 }
-
 .cards-product-link:hover .overlay-descriptions,
 .cards-product-link:focus .overlay-descriptions{
   transform: translateY(0%);
 }
-
 .cards-product-link:hover,
 .cards-product-link:focus{
   transform: translateY(0%);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-
 .cards-product-descriptions-desc{
   font-size: 16px;
   line-height: 1.5;
@@ -744,7 +706,6 @@ body{
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-
 .cards-product-text{
   font-weight: 500;
   font-size: 20px;
@@ -753,5 +714,4 @@ body{
   color: var(--dark);
   margin-bottom: 8px;
 }
-
 /* ================= PORTFOLIO ================= */
