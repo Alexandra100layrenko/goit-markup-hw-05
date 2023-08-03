@@ -699,7 +699,7 @@ p .small{
 }
 
 .modal-input-icon:hover,
-.modal-input-icon:focus {
+.modal-input-icon:focus-within {
   fill: #4D5AE5;
 }
 
@@ -756,7 +756,7 @@ p .small{
 .checkbox:checked + .check-text span {
   background-color: var(--accent-color-pressed-state);
   border: none; 
-  fill: #F4F4FD;
+  fill: var(--light);
 }
 
 .privacy-link {
