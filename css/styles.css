@@ -703,6 +703,10 @@ p .small{
   fill: #4D5AE5;
 }
 
+.modal-input-icon:focus::placeholder {
+  fill: transparent;;
+}
+
 .modal-field-comment{
   margin-bottom: 16px;
 }
