@@ -704,7 +704,7 @@ p .small{
 }
 
 .modal-input-icon:focus::placeholder {
-  fill: transparent;;
+  fill: transparent;
 }
 
 .modal-field-comment{
