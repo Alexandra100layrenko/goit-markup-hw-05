@@ -654,7 +654,6 @@ p .small{
   display: block;
   overflow: hidden;
   margin: 0 auto;
-  padding-top: 10px;
   width: 100%;
   text-align: left;
 }
