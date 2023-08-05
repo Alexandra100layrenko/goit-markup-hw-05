@@ -144,10 +144,6 @@ p .small{
   padding-bottom: 24px;
 }
 
-a.logo.link {
-  color: var(--primary-brand);
-} 
-
 .contact-item a{
   color: var(--dark);
 }
