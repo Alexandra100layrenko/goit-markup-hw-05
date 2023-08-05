@@ -144,6 +144,10 @@ p .small{
   padding-bottom: 24px;
   color: var(--dark);
 }
+a.logo.link {
+  color: var(--primary-brand);
+} 
+
 .page-header-container{
   display: flex;
   align-items: center;
